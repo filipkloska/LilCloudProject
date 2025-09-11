@@ -1,0 +1,33 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="LilCloudDesktop.App"
+             
+             xmlns:local="clr-namespace:LilCloudDesktop"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+    
+             <Application.DataTemplates>
+                 <local:ViewLocator></local:ViewLocator>
+             </Application.DataTemplates>
+             
+    <Application.Styles>
+        <FluentTheme />
+        <StyleInclude Source="Styles/AppDefaultStyles.axaml"></StyleInclude>
+    </Application.Styles>
+    <Application.Resources>
+        <FontFamily x:Key="OjujuBold">/Assets/Fonts/Ojuju-ExtraBold.ttf#Ojuju ExtraBold</FontFamily>
+        <FontFamily x:Key="Phosphor">/Assets/Fonts/Phosphor.ttf#Phosphor</FontFamily>
+        <FontFamily x:Key="PhosphorFill">/Assets/Fonts/Phosphor-Fill.ttf#Phosphor-Fill</FontFamily>
+        <FontFamily x:Key="PhosphorBold">/Assets/Fonts/Phosphor-Bold.ttf#Phosphor-Bold</FontFamily>
+        <FontFamily x:Key="AkkoPro">/Assets/Fonts/Akko Pro Regular.ttf#Akko Pro</FontFamily>
+        <SolidColorBrush x:Key="PrimaryText">Black</SolidColorBrush>
+        <SolidColorBrush x:Key="PrimaryBackground">#a0f485</SolidColorBrush>
+        <LinearGradientBrush x:Key="PrimaryBackgroundGradient" StartPoint="0%, 0%" EndPoint="100%,0%">
+            <GradientStop Offset="0" Color="#64e238"></GradientStop>
+            <GradientStop Offset="1" Color="#a9ee90"></GradientStop>
+        </LinearGradientBrush>
+        <SolidColorBrush x:Key="PrimaryHoverText">#1b1b1b</SolidColorBrush>
+        <SolidColorBrush x:Key="PrimaryHoverBackground">#c1f9ae</SolidColorBrush>
+        <SolidColorBrush x:Key="PrimaryActiveBackground">#36cc00</SolidColorBrush>
+    </Application.Resources>
+</Application>

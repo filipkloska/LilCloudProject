@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\classes\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:classes\\jwtinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\database\\dbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:database\\dbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00694431-A098-421A-9FCC-4BFF45AFF4C6}|..\\LilCloudClientConsole\\LilCloudClientConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudclientconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00694431-A098-421A-9FCC-4BFF45AFF4C6}|..\\LilCloudClientConsole\\LilCloudClientConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudclientconsole\\protos\\lilcloud.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00694431-A098-421A-9FCC-4BFF45AFF4C6}|..\\LilCloudClientConsole\\LilCloudClientConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudclientconsole\\classes\\lilcloudclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\services\\lilcloudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:services\\lilcloudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\protos\\lilcloud.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:protos\\lilcloud.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\migrations\\20250820112535_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:migrations\\20250820112535_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\database\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:database\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\classes\\networkutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:classes\\networkutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\classes\\clientregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:classes\\clientregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\migrations\\cloudcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:migrations\\cloudcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00694431-A098-421A-9FCC-4BFF45AFF4C6}|..\\LilCloudClientConsole\\LilCloudClientConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudclientconsole\\classes\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudserverconsole\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C09029-A53D-40EA-81D2-6071256DFD02}|LilCloudServerConsole.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00694431-A098-421A-9FCC-4BFF45AFF4C6}|..\\LilCloudClientConsole\\LilCloudClientConsole.csproj|c:\\filip\\projects\\lilcloud\\lilcloudclientconsole\\lilcloudclientconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 410,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LilCloudClientConsole.csproj",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\LilCloudClientConsole.csproj",
+              "RelativeDocumentMoniker": "..\\LilCloudClientConsole\\LilCloudClientConsole.csproj",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\LilCloudClientConsole.csproj",
+              "RelativeToolTip": "..\\LilCloudClientConsole\\LilCloudClientConsole.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAMBdwBwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T10:21:57.361Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CloudContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Migrations\\CloudContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\CloudContextModelSnapshot.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Migrations\\CloudContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\CloudContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:57:59.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250820112535_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Migrations\\20250820112535_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250820112535_InitialCreate.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Migrations\\20250820112535_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250820112535_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:57:59.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JwtInterceptor.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\JwtInterceptor.cs",
+              "RelativeDocumentMoniker": "Classes\\JwtInterceptor.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\JwtInterceptor.cs",
+              "RelativeToolTip": "Classes\\JwtInterceptor.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:45:07.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "lilcloud.proto",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Protos\\lilcloud.proto",
+              "RelativeDocumentMoniker": "Protos\\lilcloud.proto",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Protos\\lilcloud.proto",
+              "RelativeToolTip": "Protos\\lilcloud.proto",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAlwCUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-08-21T17:01:09.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NetworkUtils.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\NetworkUtils.cs",
+              "RelativeDocumentMoniker": "Classes\\NetworkUtils.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\NetworkUtils.cs",
+              "RelativeToolTip": "Classes\\NetworkUtils.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T05:22:33.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:41:10.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LilCloudClientConsole\\Program.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Program.cs",
+              "RelativeToolTip": "..\\LilCloudClientConsole\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:46:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwEoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T19:05:52.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LilCloudService.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Services\\LilCloudService.cs",
+              "RelativeDocumentMoniker": "Services\\LilCloudService.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Services\\LilCloudService.cs",
+              "RelativeToolTip": "Services\\LilCloudService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAHIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:42:25.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lilcloud.proto",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Protos\\lilcloud.proto",
+              "RelativeDocumentMoniker": "..\\LilCloudClientConsole\\Protos\\lilcloud.proto",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Protos\\lilcloud.proto",
+              "RelativeToolTip": "..\\LilCloudClientConsole\\Protos\\lilcloud.proto",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-08-01T11:34:01.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbHandler.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Database\\DbHandler.cs",
+              "RelativeDocumentMoniker": "Database\\DbHandler.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Database\\DbHandler.cs",
+              "RelativeToolTip": "Database\\DbHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:37:09.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Database\\Model.cs",
+              "RelativeDocumentMoniker": "Database\\Model.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Database\\Model.cs",
+              "RelativeToolTip": "Database\\Model.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA7wDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:14:54.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientRegistry.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\ClientRegistry.cs",
+              "RelativeDocumentMoniker": "Classes\\ClientRegistry.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Classes\\ClientRegistry.cs",
+              "RelativeToolTip": "Classes\\ClientRegistry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T06:13:57.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T08:07:58.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudServerConsole\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T11:20:54.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LilCloudClient.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Classes\\LilCloudClient.cs",
+              "RelativeDocumentMoniker": "..\\LilCloudClientConsole\\Classes\\LilCloudClient.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Classes\\LilCloudClient.cs",
+              "RelativeToolTip": "..\\LilCloudClientConsole\\Classes\\LilCloudClient.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:54:46.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Classes\\Server.cs",
+              "RelativeDocumentMoniker": "..\\LilCloudClientConsole\\Classes\\Server.cs",
+              "ToolTip": "C:\\Filip\\Projects\\LilCloud\\LilCloudClientConsole\\Classes\\Server.cs",
+              "RelativeToolTip": "..\\LilCloudClientConsole\\Classes\\Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:59:25.444Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 94,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

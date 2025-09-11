@@ -1,0 +1,82 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20" Background="{DynamicResource PrimaryBackgroundGradient}">
+                        <Grid RowDefinitions="*,Auto">
+                                <StackPanel Spacing="12">
+                                        <Image Source="/Assets/Images/logov2small.png" Width="50" Height="100"></Image>
+                                        <Button HorizontalAlignment="Left">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content="{}" IsVisible="False"></Label>
+                                                </StackPanel>
+                                        </Button>
+                                        <Button HorizontalAlignment="Left">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content=""></Label>
+                                                </StackPanel>
+                                        </Button>
+                                        <Button HorizontalAlignment="Left">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content=""></Label>
+                                                </StackPanel>
+                                        </Button>
+                                </StackPanel>
+                                <Button Grid.Row="1" HorizontalAlignment="Left">
+                                        <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                <Label Content="testtesttest"></Label>
+                                        </StackPanel>
+                                </Button>
+                        </Grid>
+                </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+    <Style Selector="Window">
+        <Setter Property="FontFamily" Value="{DynamicResource AkkoPro}"></Setter>
+    </Style>
+    
+    <Style Selector="Label.icon">
+        <Setter Property="FontFamily" Value="{DynamicResource PhosphorFill}"></Setter>
+        <Setter Property="Padding" Value="0 6 0 5"></Setter>
+        
+    </Style>
+    
+    <Style Selector="Button">
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryText}"></Setter>
+        <Setter Property="Padding" Value="10 5 10 5"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryBackground}"></Setter>
+        <Setter Property="FontSize" Value="20"></Setter>
+    </Style>
+    
+    <Style Selector="Button Label">
+        <Setter Property="RenderTransform" Value="scale(1)"></Setter>
+        <Setter Property="Transitions">
+            <Transitions>
+                <BrushTransition Property="Background" Duration="0:0:0.1"></BrushTransition>
+                <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.1"></TransformOperationsTransition>
+            </Transitions>
+        </Setter>
+    </Style>
+    
+    <Style Selector="Button:pointerover Label">
+        <Setter Property="RenderTransform" Value="scale(1.1)"></Setter>
+    </Style>
+    
+    <Style Selector="Label">
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryText}"></Setter>
+    </Style>
+    
+    <Style Selector="Button:pointerover /template/ ContentPresenter">
+        <Setter Property="Foreground" Value="{DynamicResource PrimaryHoverText}"></Setter>
+        <Setter Property="Background" Value="{DynamicResource PrimaryHoverBackground}"></Setter>
+        <Setter Property="FontSize" Value="20"></Setter>
+    </Style>
+    
+    <Style Selector="Button.active /template/ ContentPresenter">
+        <Setter Property="Background" Value="{DynamicResource PrimaryActiveBackground}"></Setter>
+    </Style>
+</Styles>

@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="LilCloudDesktop.MainView"
+        x:DataType="vm:MainViewModel"
+        xmlns:vm="clr-namespace:LilCloudDesktop.ViewModels"
+        xmlns:views="clr-namespace:LilCloudDesktop.Views"
+        Title="LilCloudDesktop">
+        
+        <Design.DataContext>
+                <vm:MainViewModel></vm:MainViewModel>
+        </Design.DataContext>
+        
+        <Grid Background="{DynamicResource PrimaryBackground}" ColumnDefinitions="Auto,*">
+                
+                <ContentControl Grid.Column="1" Content="{Binding CurrentPage}">
+                </ContentControl>
+                
+                
+                <Border Padding="20" Background="{DynamicResource PrimaryBackgroundGradient}">
+                        <Grid RowDefinitions="*,Auto">
+                                <StackPanel Spacing="12">
+                                        <StackPanel Orientation="Horizontal" Spacing="10">
+                                                <Image PointerPressed="InputElement_OnPointerPressed" Source="/Assets/Images/logov2small.png" Width="50" Height="50"></Image>
+                                                <Label FontFamily="{DynamicResource AkkoPro}" Content="Little Cloud"
+                                                       VerticalAlignment="Center" IsVisible="{Binding SideMenuExpanded}"></Label>
+                                        </StackPanel>
+                                        <Button HorizontalAlignment="Left" Classes.active="{Binding HomePageIsActive}" Command="{Binding GoToHomePageCommand}">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content="Home" IsVisible="{Binding SideMenuExpanded}"></Label>
+                                                </StackPanel>
+                                        </Button>
+                                        <Button HorizontalAlignment="Left" Classes.active="{Binding CloudPageIsActive}" Command="{Binding GoToCloudPageCommand}">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content="Clouds" IsVisible="{Binding SideMenuExpanded}"></Label>
+                                                </StackPanel>
+                                        </Button>
+                                        <Button HorizontalAlignment="Left" Classes.active="{Binding AccountPageIsActive}" Command="{Binding GoToAccountPageCommand}">
+                                                <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                        <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                        <Label Content="Account" IsVisible="{Binding SideMenuExpanded}"></Label>
+                                                </StackPanel>
+                                        </Button>
+                                </StackPanel>
+                                <Button Grid.Row="1" HorizontalAlignment="Left" Classes.active="{Binding SettingsPageIsActive}" Command="{Binding GoToSettingsPageCommand}">
+                                        <StackPanel Orientation="Horizontal" Spacing="10" >
+                                                <Label FontFamily="{DynamicResource PhosphorFill}" Classes="icon" Content=""> </Label> 
+                                                <Label Content="Settings" IsVisible="{Binding SideMenuExpanded}"></Label>
+                                        </StackPanel>
+                                </Button>
+                        </Grid>
+                </Border>
+        </Grid>
+</Window>

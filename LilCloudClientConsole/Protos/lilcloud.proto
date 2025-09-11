@@ -1,0 +1,110 @@
+syntax = "proto3";
+
+option csharp_namespace = "LilCloudClientConsole";
+
+package cloud;
+
+enum AvailabilityStatus{
+	STATUS_UNKNOWN = 0;
+	STATUS_AVAILABLE = 1;
+	STATUS_BUSY = 2;
+	STATUS_ERROR = 3;
+}
+
+enum GenericStatus{
+	GS_UNKNOWN = 0;
+	GS_OK = 1;
+	GS_ERROR = 2;
+}
+
+// The cloud service definition.
+service LilCloud {
+  rpc EstablishConnection (ConnectionRequest) returns (ConnectionReply);
+  rpc CheckAvailability (EmptyRequest) returns (AvailabilityStatusReply);
+  rpc UploadFile (stream FileChunk) returns (stream UploadFileReply);
+  rpc ExecuteFile (stream FileExecutionRequest) returns (stream OutputReply);
+  rpc TerminateExecution (EmptyRequest) returns (TerminationReply);
+  rpc RegisterAccount (RegisterRequest) returns (RegisterReply);
+  rpc AccessAccount (AccessRequest) returns (AccessReply);
+}
+
+message FileChunk{
+	bytes data = 1;
+}
+
+message UploadFileReply{
+	GenericStatus status = 1;
+	int32 completion = 2;
+}
+
+message RegisterRequest{
+	string login = 1;
+	string password = 2;
+}
+
+message RegisterReply{
+	GenericStatus status = 1;
+}
+
+message AccessRequest{
+	string login = 1;
+	string password = 2;
+}
+
+message AccessReply{
+	GenericStatus status = 1;
+	string authToken = 2;
+}
+
+
+message EmptyRequest{}
+
+message ConnectionRequest{
+	optional string authToken = 1;
+}
+
+message TCPRequest{
+	string authToken = 1;
+}
+
+message FileDataRequest{
+	string fileName = 1;
+	string fileSavePath = 2;
+	string authToken = 3;
+}
+
+message FileDataReply{
+	GenericStatus status = 1;
+}
+
+message TCPSocketReply{
+	GenericStatus status = 1;
+}
+
+message TerminationReply{
+	string terminatedFileName = 1;
+	GenericStatus status =  2;
+}
+
+message ConnectionReply
+{
+	uint32 CPU_Limit = 1;
+	string CPU_Name = 2;
+	string OS_Name = 3;
+	int32 tcp_port = 4;
+	optional string authToken = 5;
+}
+
+message AvailabilityStatusReply{
+	AvailabilityStatus Status = 1;
+}
+
+message FileExecutionRequest{
+	bytes ChunkedFile = 1;
+}
+
+message OutputReply{
+	bytes ChunkedOutput = 1;
+	GenericStatus status = 2;
+}
+

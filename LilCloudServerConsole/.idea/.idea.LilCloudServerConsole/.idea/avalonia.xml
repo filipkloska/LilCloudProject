@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="../LilCloudDesktop/App.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/MainView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/MainWindow.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Styles/AppDefaultStyles.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Views/AccountPageView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Views/CloudPageView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Views/HomePageView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Views/MainView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+        <entry key="../LilCloudDesktop/Views/SettingsPageView.axaml" value="../LilCloudDesktop/LilCloudDesktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
